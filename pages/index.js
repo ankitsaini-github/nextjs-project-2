@@ -19,7 +19,7 @@ export async function getStaticProps() {
 
   try {
     const client = await MongoClient.connect(
-      "mongodb+srv://ankit:ankit123123123@cluster0.goaussj.mongodb.net/meetups?retryWrites=true&w=majority&appName=Cluster0",
+      "mongodb+srv://vercel-admin-user:vau123123123@cluster0.goaussj.mongodb.net/meetups?retryWrites=true&w=majority&appName=Cluster0",
       { useNewUrlParser: true, useUnifiedTopology: true }
     );
 
